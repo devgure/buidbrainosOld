@@ -1,0 +1,15 @@
+﻿Layer,Tech
+Frontend,"React Native (iOS/Android), React (Web), Expo for OTA updates"
+Offline Sync,"WatermelonDB (mobile), RxDB (web) + conflict resolution"
+Backend,"Node.js (NestJS), TypeScript"
+Database,MongoDB Atlas (flexible schema for unstructured data) + Redis (caching)
+ORM,Prisma" (type-safe, supports MongoDB)"
+AI/ML,Llama 3 70B (self-hosted via vLLM) + OpenCV + DocTR (document AI)
+Vector DB,Weaviate" (for blueprint embeddings, RFI context)"
+Orchestration,LangGraph (agent state machines) + Temporal.io (workflows)
+File Processing,Tika + PyMuPDF → extract text/images from PDFs
+Cloud,AWS" (EKS for containers, S3 for files, CloudFront CDN)"
+Auth,Auth0 (B2B SSO) + RBAC per project
+i18n,"LinguiJS (supports Spanish, English, French for NA/LATAM)"
+Geolocation,Mapbox + GPS geofencing (background location via Expo)
+Compliance,OCR: Tesseract + AWS Textract (fallback) → validate COIs

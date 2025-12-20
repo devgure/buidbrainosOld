@@ -1,0 +1,21 @@
+graph LR
+  A[User Uploads: PDF Blueprint + Contract] --> B(Blueprint Intelligence Agent)
+  C[Emails + RFIs] --> D(RFI Predictor Agent)
+  E[Sub GPS Check-in] --> F(Sub Co-Pilot Agent)
+  G[Site Photos] --> H(Safety Monitor Agent)
+  I[Public Bid Boards] --> J(BidBrain Agent)
+
+  B --> K[Knowledge Graph: Components, Sequences]
+  D --> K
+  F --> L[Real-time Schedule Board]
+  H --> M[Safety Risk Score]
+  J --> N[Matched Sub List]
+
+  K --> O[Proactive Alert Engine]
+  L --> O
+  M --> O
+  N --> O
+
+  O --> P[Mobile App: Push + Voice]
+  O --> Q[Desktop Dashboard]
+  O --> R[Procore/Autodesk Sync]
